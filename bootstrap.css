@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+body {
+    font-family: Quicksand, serif;
+background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 255, 1) 100%);
+background-repeat: repeat-y;
+background-size: auto;
+background-position: center;
+background-blend-mode: overlay;
+}
+
+.nav-link {
+    color: aqua;
+}
+
+.navbar-nav .nav-link.active {
+color: rgb(172, 172, 255);
+}
+
+.navbar-brand img {
+    width: 65px;
+}
+
+.navbar-toggler {
+    background-color: rgb(172, 172, 255);
+}
+
+.card {
+    color: rgb(226, 200, 255);
+margin-top: 10px;
+background: linear-gradient(270deg, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 255, 1) 100%);
+background-repeat: repeat-y;
+background-size: auto;
+background-position: center;
+background-blend-mode: overlay;
+}
+
+#navbarNav a {
+font-weight: bold;
+}
+
+.sidebar {
+    color: pink;
+    background: linear-gradient(270deg, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 255, 1) 100%);
+background-repeat: repeat-y;
+background-size: auto;
+background-position: center;
+background-blend-mode: overlay;
+
+}
+
+.sidebar a {
+    text-decoration: none;
+}
+
+
+.card a {
+    text-decoration: none;
+        color: rgb(226, 200, 255);
+
+}
+
+.slide-text,
+.footer-text {
+    color: rgb(226, 200, 255);
+    margin: auto auto;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+footer,
+.btn-outline-primary {
+    background: linear-gradient(270deg, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 255, 1) 100%);
+background-repeat: repeat-y;
+background-size: auto;
+background-position: center;
+background-blend-mode: overlay;
+}
+
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+animation: call 2s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
+
+    15% {
+        transform: translateX(-30px) rotate(-6deg);
+    }
+
+    30% {
+        transform: translateX(15px) rotate(6deg);
+    }
+
+    45% {
+        transform: translateX(-15px) rotate(-3.6deg);
+    }
+
+    60% {
+        transform: translateX(9px) rotate(2.4deg);
+    }
+
+    75% {
+        transform: translateX(-6px) rotate(-1.2deg);
+    }
+}
+
